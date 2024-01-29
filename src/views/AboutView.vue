@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <SwitchDarkComp></SwitchDarkComp>
 </template>
+
+<script>
+import SwitchDarkComp from '@/components/SwitchDarkComp.vue';
+
+export default {
+  components: {
+    SwitchDarkComp,
+  }
+};
+</script>
